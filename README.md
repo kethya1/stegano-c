@@ -46,6 +46,10 @@ gcc mainstegano.c encoder.c -o stegano
 ./stegano -D -i output.bmp -o textedecode.txt
 ```
 
+## Collaborateurs
+
+- [@Nadine Ouelhazi](https://www.linkedin.com/in/nadine-ouelhazi/)
+
 
 
 
