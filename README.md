@@ -46,7 +46,7 @@ gcc mainstegano.c encoder.c -o stegano
 ./stegano -D -i output.bmp -o textedecode.txt
 ```
 
-### Pistes d'amélioration
+## Pistes d'amélioration
 
 - **Support d'autres formats d'images**  
   Étendre le projet pour permettre l'encodage et le décodage dans des formats plus courants comme JPEG, PNG, etc., en plus du BMP.
