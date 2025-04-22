@@ -46,6 +46,21 @@ gcc mainstegano.c encoder.c -o stegano
 ./stegano -D -i output.bmp -o textedecode.txt
 ```
 
+### Pistes d'amélioration
+
+- **Support d'autres formats d'images**  
+  Étendre le projet pour permettre l'encodage et le décodage dans des formats plus courants comme JPEG, PNG, etc., en plus du BMP.
+
+- **Ajout d'un chiffrement**  
+  Intégrer une phase de chiffrement du message (ex : chiffrement symétrique avec une clé partagée) avant l'encodage pour renforcer la sécurité et la confidentialité.
+
+- **Vérification de la présence d’un message**  
+  Introduire une "magic string"ou signature spécifique au début du message encodé, afin de valider automatiquement si une information cachée est réellement présente lors du décodage.
+
+- **Encodage aléatoire des bits**  
+  Modifier l’algorithme pour répartir les bits du message de façon pseudo-aléatoire dans l’image, ce qui rendrait la stéganographie encore plus difficile à détecter.
+
+
 ## Collaborateurs
 
 - [@Nadine Ouelhazi](https://www.linkedin.com/in/nadine-ouelhazi/)
