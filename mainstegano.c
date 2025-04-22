@@ -57,6 +57,6 @@ int main(int nbarg, char *argv[]) {
             printf("Erreur: option invalide. Utilisez -E pour encoder ou -D pour decoder.\n");
             return 1;
     }
-
+//
     return 0;
 }
